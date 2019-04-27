@@ -1,0 +1,109 @@
+.App {
+  text-align: center;
+    
+
+
+}
+#title_
+{
+
+    float: left;
+    margin-top: 8px;
+    color: black;
+
+}
+body{background:rgba(211, 211, 211, 0.25);
+}
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 10vmin;
+  pointer-events: none;
+  float: left;
+}
+.App-header {
+  background-color: white;
+  min-height: 10vh;
+ 
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.P-img{
+  max-width: 70px
+}
+.P-desc{
+  max-width: 100px;
+  color: lightgrey;
+  font-size: smaller;
+}
+.ProductPane{
+  float: left;
+  padding:2%;
+  margin:1%;
+  min-height: 100vh;
+  background: white;
+margin-left: 1px;
+}
+.ProductPane ul{
+  padding-left: 0px;
+  padding: 11px;
+  text-align: left;
+  list-style: none;
+  margin-top:17px;
+}
+.ProductTags ul>li{
+float: left;
+padding: 5px;
+border:1px solid #ccc;
+margin-right:5px;
+font-size: x-small;
+}
+.ProductTags{
+  max-width: 150px;
+}
+.cols ul{
+  margin-top: 100px;
+  padding-left:0px;
+}
+.cols ul>li{
+  padding-top: 18px;
+  padding-bottom: 18px;
+
+  border-bottom: 1px solid gainsboro;
+}
+.ProductAnalytics{
+  float: left;
+  min-height: 100vh;
+  background: white;
+  margin:1%;
+  padding: 2%;
+  min-width: 70vw;
+  max-width:75vw;
+}
+
+.ProductsSalesChart{
+  margin:2%;
+  border:1px solid gainsboro;
+  min-height: 60vh;
+}
+.ProductSalesStats{
+  margin-top: 50px;
+  display: block;
+  text-align: -webkit-center;
+
+}
+
+.ProductSalesStats table td,.ProductSalesStats table th{
+  padding: 5px;
+  border-right: 1px solid #ccc
+}
+.ProductSalesStats table tr>td:last-child,.ProductSalesStats table tr>th:last-child{
+  border-right: none
+
+}
+.ProductSalesStats table td{
+  text-align: center;
+}
